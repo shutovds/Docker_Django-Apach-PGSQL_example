@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "it works"
+
+#Set up environmetn
+su www-site -c "
+virtualenv venv;
+source ~/project/venv/bin/activate;
+pip3 install -r requirements.txt;
+"
+
+#Create new project
+#su www-site -c "django-admin.py startproject website ~/project"
+#python manage.py createsuperuser
+
+
+
