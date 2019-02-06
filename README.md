@@ -27,7 +27,7 @@ You can also change the database folder: **postgre_datadir**, but be careful, it
 - go to http://0.0.0.0:8000 to see if Django server works
 
 ### It is a bad idea to keep DEBUG = True for Apache server and it will be better to change it to False :
-- go to *website/settings.py* and change **DEBUG = False** to **DEBUG = True**
+- go to *website/settings.py* and change **DEBUG = True** to **DEBUG = False**
 
 
 
